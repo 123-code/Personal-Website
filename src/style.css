@@ -1,0 +1,38 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  font-family: Arial, sans-serif;
+  color: #39ff14;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.content-container {
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+
+
+.small-image {
+  width: 200px; /* Adjust the width as desired */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 48px;
+  margin: 10px;
+  color: #39ff14;
+}
+
